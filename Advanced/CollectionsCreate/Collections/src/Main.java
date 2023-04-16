@@ -32,16 +32,5 @@ public class Main {
 
         System.out.println("Is collection2 a subset of collection? " + collection.containsAll(collection2));
 
-        collection.addAll(collection2);
-        System.out.println("A list of cities in collection:");
-        System.out.println(collection);
-
-        collection.removeAll(collection2);
-        System.out.println("A list of cities in collection:");
-        System.out.println(collection);
-
-        collection.retainAll(collection2);
-        System.out.println("A list of cities in collection:");
-        System.out.println(collection);
     }
 }
